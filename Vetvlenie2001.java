@@ -27,6 +27,7 @@ public class Vetvlenie2001
 			PrintWriter pw = new PrintWriter(new File("output2001.txt"));
 			pw.println((int)c);
 			pw.close();
+			System.out.println("Hello, world!");
 		}
 		catch(Exception e)
 		{
