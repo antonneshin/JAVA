@@ -1,4 +1,4 @@
-package src;
+package ru.sbertech.test;
 
 /**
  * Created by Student on 15.07.2016.
