@@ -1,16 +1,17 @@
 package src.home.sbt.task2407;
 
+import java.util.AbstractCollection;
 import java.util.Iterator;
 import java.util.ListIterator;
 
 /**
  * Created by Пентагон on 24.07.2016.
  */
-public class MyLinkedList<T> {
+public class MyLinkedList<T>{
     private int size;
     private Node<T> first;
     private Node<T> last;
-    private class Node<T>
+    public class Node<T>
     {
         private T val;
         private Node<T> next;
