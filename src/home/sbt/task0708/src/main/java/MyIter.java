@@ -1,3 +1,4 @@
+package src.home.sbt.task0708.src.main.java;
 /**
  * Created by Пентагон on 07.08.2016.
  */
@@ -14,16 +15,16 @@ public class MyIter<T> implements Iterable<T> {
         elems=(T[])new Object[n];
         size=n;
     }
-    @Override
+    //@Override
     public Iterator<T> iterator(){
         return new Iterator<T>() {
             int pos=-1;
-            @Override
+           // @Override
             public boolean hasNext() {
                 return pos<size-1;
             }
 
-            @Override
+            //@Override
             public T next() {
                 if (hasNext()){
                     pos++;
