@@ -101,6 +101,7 @@ public class Main {
             System.out.println("Enter command:\n Exit - 0\n read Chat - 1\n write in Chat - 2");
             answer=in.nextInt();
         }
+        in.close();
     }
 
 }
