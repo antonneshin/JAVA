@@ -14,8 +14,8 @@ public class Main {
     public static Integer cntLetters=0;
     public static void main(String[] args) {
         try{
-            List<String> ls= Files.readAllLines(Paths.get("C:\\Users\\Пентагон\\Desktop\\JAVAnew\\src\\home\\sbt\\home1708\\input.txt"));
-            Integer poolSize=Integer.parseInt(Files.readAllLines(Paths.get("C:\\Users\\Пентагон\\Desktop\\JAVAnew\\src\\home\\sbt\\home1708\\poolSize.txt")).get(0));
+            List<String> ls= Files.readAllLines(Paths.get("C:\\Users\\Student\\IdeaProjects\\JAVA_Home\\src\\home\\sbt\\home1708\\input.txt"));
+            Integer poolSize=Integer.parseInt(Files.readAllLines(Paths.get("C:\\Users\\Student\\IdeaProjects\\JAVA_Home\\src\\home\\sbt\\home1708\\poolSize.txt")).get(0));
             ArrayList<String> words = new ArrayList<>();
             String[] strWords;
             for (String line:ls){
