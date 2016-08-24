@@ -20,7 +20,7 @@ public class ExecutionManagerImpl implements ExecutionManager {
             }
             endFlag = false;
         } else {
-            throw new Exception("incorrect num of threads");
+            throw new Exception("incorrect num of threads ");
         }
     }
     @Override
