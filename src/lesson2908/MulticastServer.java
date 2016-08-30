@@ -15,7 +15,7 @@ public class MulticastServer {
     public static void main(String[] args) throws IOException {
         try(MulticastSocket socket=new MulticastSocket(PORT))
         {
-            InetAddress mul
+            InetAddress mul;
         }
     }
 }
