@@ -18,13 +18,13 @@ abstract class MobileOperator {
     }
 
     public void processRequest(String request, int requestType){
-        if(requestType>opetorType) {
-            System.out.println("from "+opetorType+" level: delegate your request to another specialist");
-            next.processRequest(request, requestType);
+        if (opetorType<requestType){
+            System.out.println("from "+opetorType+": delegate your request to the next specialist");
+        } else {
+            specialistProcessing(request);
             return;
         }
-        specialistProcessing(request);
-
+        next.processRequest(request, requestType);
     }
     public void specialistProcessing(String request){};
 }
