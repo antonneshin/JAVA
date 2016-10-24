@@ -8,5 +8,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
 public interface ClientDAO {
     public void setJBDC(JdbcTemplate jdbcT);
     public void addClient(Long id, String name);
+    public void addClient(Client client);
+    public void updateClient(Client client);
     public Client getClient(Long id);
 }
